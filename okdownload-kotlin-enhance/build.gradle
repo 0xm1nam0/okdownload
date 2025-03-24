@@ -46,7 +46,7 @@ tasks.withType(Javadoc).all {
     dependsOn dokka
 }
 
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
-if (hasProperty("isCI")) {
-    apply from: rootProject.file('gradle/codecov.gradle')
-}
+//apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
+//if (hasProperty("isCI")) {
+//    apply from: rootProject.file('gradle/codecov.gradle')
+//}

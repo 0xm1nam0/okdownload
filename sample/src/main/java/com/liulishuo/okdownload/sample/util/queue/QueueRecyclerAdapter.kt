@@ -44,10 +44,10 @@ class QueueRecyclerAdapter(
     override fun getItemCount(): Int = controller.size()
 
     class QueueViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var nameTv: TextView = itemView.findViewById(R.id.nameTv)
-        var priorityTv: TextView = itemView.findViewById(R.id.priorityTv)
-        var prioritySb: SeekBar = itemView.findViewById(R.id.prioritySb)
-        var statusTv: TextView = itemView.findViewById(R.id.statusTv)
-        var progressBar: ProgressBar = itemView.findViewById(R.id.progressBar)
+        var nameTv: TextView = itemView.findViewById(R.id.nameTv)!!
+        var priorityTv: TextView = itemView.findViewById(R.id.priorityTv)!!
+        var prioritySb: SeekBar = itemView.findViewById(R.id.prioritySb)!!
+        var statusTv: TextView = itemView.findViewById(R.id.statusTv)!!
+        var progressBar: ProgressBar = itemView.findViewById(R.id.progressBar)!!
     }
 }

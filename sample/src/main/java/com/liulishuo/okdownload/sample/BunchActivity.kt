@@ -210,8 +210,8 @@ class BunchActivity : BaseSampleActivity() {
         @IdRes tvId: Int,
         @IdRes pbId: Int
     ) {
-        internal val progressBar: ProgressBar = activity.findViewById(pbId)
-        internal val infoTv: TextView = activity.findViewById(tvId)
+        internal val progressBar: ProgressBar = activity.findViewById(pbId)!!
+        internal val infoTv: TextView = activity.findViewById(tvId)!!
         internal var id = 0
     }
 

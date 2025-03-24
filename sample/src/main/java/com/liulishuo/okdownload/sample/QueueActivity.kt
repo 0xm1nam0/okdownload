@@ -42,13 +42,13 @@ class QueueActivity : BaseSampleActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_queue)
         initQueueActivity(
-            findViewById(R.id.actionView),
+            findViewById(R.id.actionView)!!,
             findViewById<View>(R.id.actionTv) as TextView,
             findViewById<View>(R.id.serialRb) as AppCompatRadioButton,
             findViewById<View>(R.id.parallelRb) as AppCompatRadioButton,
             findViewById<View>(R.id.recyclerView) as RecyclerView,
             findViewById<View>(R.id.deleteActionView) as CardView,
-            findViewById(R.id.deleteActionTv)
+            findViewById(R.id.deleteActionTv)!!
         )
     }
 

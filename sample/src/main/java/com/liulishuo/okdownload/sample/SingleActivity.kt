@@ -53,7 +53,7 @@ class SingleActivity : BaseSampleActivity() {
         initSingleDownload(
             findViewById<View>(R.id.statusTv) as TextView,
             findViewById<View>(R.id.progressBar) as ProgressBar,
-            findViewById(R.id.actionView),
+            findViewById(R.id.actionView)!!,
             findViewById<View>(R.id.actionTv) as TextView
         )
     }

@@ -30,7 +30,7 @@ dependencies {
     implementation 'androidx.annotation:annotation:1.7.0'
 }
 
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
-if (hasProperty("isCI")) {
-    apply from: rootProject.file('gradle/codecov.gradle')
-}
+//apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
+//if (hasProperty("isCI")) {
+//    apply from: rootProject.file('gradle/codecov.gradle')
+//}
