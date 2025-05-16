@@ -32,9 +32,9 @@ public class BlockInfoRow {
 
     public BlockInfoRow(Cursor cursor) {
         this.breakpointId = cursor.getInt(cursor.getColumnIndex(HOST_ID));
-        this.startOffset = cursor.getInt(cursor.getColumnIndex(START_OFFSET));
-        this.contentLength = cursor.getInt(cursor.getColumnIndex(CONTENT_LENGTH));
-        this.currentOffset = cursor.getInt(cursor.getColumnIndex(CURRENT_OFFSET));
+        this.startOffset = cursor.getLong(cursor.getColumnIndex(START_OFFSET));
+        this.contentLength = cursor.getLong(cursor.getColumnIndex(CONTENT_LENGTH));
+        this.currentOffset = cursor.getLong(cursor.getColumnIndex(CURRENT_OFFSET));
     }
 
     public int getBreakpointId() {
