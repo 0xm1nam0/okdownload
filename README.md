@@ -10,6 +10,14 @@ A Reliable, Flexible, Fast and Powerful download engine.
 
 > [中文文档](https://github.com/lingochamp/okdownload/blob/master/README-zh.md)
 
+## Maintenance Updates
+
+### Breakpoint Improvements
+- **Fix large file breakpoint**：Resolved breakpoint resume failure when downloading files over 2048MB after process termination
+- **Concurrency safety**：Fixed concurrent access issues, null pointer risks and data inconsistencies in multi-threaded downloading
+
+> See full history in [Changelog](CHANGELOG.md)
+
 ---
 
 > P.S. If you ask me, which version is the most stability, I will tell you it's not the version of 1.0.0 or 2.0.0, the most stability version must be the latest version because it is developed with github-flow, not production-flow. So please follow the latest release version and show me your PR. Here is [the changelog for each version](https://github.com/lingochamp/okdownload/blob/master/CHANGELOG.md), it may help you.
