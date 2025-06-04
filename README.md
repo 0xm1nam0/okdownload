@@ -8,7 +8,7 @@ A Reliable, Flexible, Fast and Powerful download engine.
 [ ![Download](https://api.bintray.com/packages/jacksgong/maven/OkDownload/images/download.svg) ](https://bintray.com/jacksgong/maven/OkDownload/_latestVersion)
 [![][okdownload_snapshot_svg]](https://oss.sonatype.org/content/repositories/snapshots/com/liulishuo/okdownload/)
 
-> [中文文档](https://github.com/lingochamp/okdownload/blob/master/README-zh.md)
+> [中文文档](README-zh.md)
 
 ## Maintenance Updates
 
